@@ -300,19 +300,6 @@ streamlit
 plotly
 pandas
 ```
-
----
-
-#  Future Enhancements
-
-- Database Integration
-- Email Payslip Delivery
-- AI-based Payroll Prediction
-- Export to Excel
-- Authentication System
-- Real-time ERP Integration
-
----
 #  Conclusion
 
 This project demonstrates a complete payroll automation and analytics workflow using LangGraph, PDF generation, JSON APIs, department-wise expenditure calculation, and interactive dashboard visualization.
