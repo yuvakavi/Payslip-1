@@ -53,8 +53,7 @@ Payslip/
 │
 ├── outputs/
 │   ├── payslips/
-│   └── charts/
-│
+
 ├── dashboard.py
 ├── main.py
 ├── requirements.txt
