@@ -1,32 +1,32 @@
-# 💰 Payslip Generator - LangGraph Based Payroll Analytics System
+# Accountant agent- LangGraph Based Payroll Analytics System
 
 A LangGraph-based payroll automation system that generates employee payslips in PDF and JSON format and provides department-wise payroll expenditure analytics using interactive dashboards and pie chart visualizations.
 
 ---
 
-# 🚀 Features
+#  Features
 
-## ✅ Payroll Automation
+##  Payroll Automation
 - Employee salary calculation
 - Intern performance-based salary calculation
 - Leave deduction handling
 - Automated PDF payslip generation
 - JSON payslip output generation
 
-## ✅ Department-wise Payroll Analytics
+##  Department-wise Payroll Analytics
 - Department expenditure calculation
 - Total company payroll analytics
 - Employee count analytics
 - Department filtering
 - Interactive dashboard analytics
 
-## ✅ Visualization
+##  Visualization
 - Static PNG pie chart using Matplotlib
 - Interactive donut pie chart using Streamlit + Plotly
 
 ---
 
-# 🏗️ Project Architecture
+#  Project Architecture
 
 ```plaintext
 Payslip/
@@ -63,7 +63,7 @@ Payslip/
 
 ---
 
-# 🔄 LangGraph Workflow
+#  LangGraph Workflow
 
 ```plaintext
 START
@@ -79,9 +79,9 @@ END
 
 ---
 
-# 💵 Payroll Calculation Logic
+#  Payroll Calculation Logic
 
-## 👨‍💼 Employee Salary Logic
+##  Employee Salary Logic
 
 ```plaintext
 Final Salary = Fixed Pay − (Fixed Pay × Leaves / 30)
@@ -98,7 +98,7 @@ Final Salary = 56000
 
 ---
 
-## 👨‍💻 Intern Salary Logic
+##  Intern Salary Logic
 
 ```plaintext
 Final Salary = Performance Points × Rate Per Point
@@ -114,7 +114,7 @@ Final Salary = 45 × 100 = Rs. 4500
 
 ---
 
-# 📊 Department Expenditure Calculation
+#  Department Expenditure Calculation
 
 The system calculates organization expenditure by aggregating:
 - Employee salaries
@@ -133,7 +133,7 @@ Department Expenditure =
 
 ---
 
-# 📈 Dashboard Features
+#  Dashboard Features
 
 - Total Company Payroll
 - Employee Count
@@ -144,9 +144,9 @@ Department Expenditure =
 
 ---
 
-# 📊 Visualization Types
+#  Visualization Types
 
-## 1️⃣ Static Pie Chart
+## 1️ Static Pie Chart
 Generated using:
 - Matplotlib
 
@@ -161,7 +161,7 @@ outputs/charts/department_pie_chart.png
 
 ---
 
-## 2️⃣ Interactive Dashboard
+## 2️ Interactive Dashboard
 Built using:
 - Streamlit
 - Plotly
@@ -199,9 +199,9 @@ streamlit run dashboard.py
 
 ---
 
-# 🧾 Output Formats
+#  Output Formats
 
-## ✅ PDF Payslip
+## PDF Payslip
 Generated for:
 - Employees
 - Interns
@@ -214,7 +214,7 @@ outputs/payslips/
 
 ---
 
-## ✅ JSON Output
+##  JSON Output
 
 Example:
 
@@ -229,7 +229,7 @@ Example:
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -246,7 +246,7 @@ Example:
 
 # ⚙️ Installation
 
-## 1️⃣ Clone Repository
+## 1 Clone Repository
 
 ```bash
 git clone https://github.com/yuvakavi/Payslip.git
@@ -254,7 +254,7 @@ git clone https://github.com/yuvakavi/Payslip.git
 
 ---
 
-## 2️⃣ Move to Project Folder
+## 2 Move to Project Folder
 
 ```bash
 cd Payslip
@@ -262,7 +262,7 @@ cd Payslip
 
 ---
 
-## 3️⃣ Create Virtual Environment
+## 3 Create Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -270,7 +270,7 @@ python -m venv .venv
 
 ---
 
-## 4️⃣ Activate Virtual Environment
+## 4 Activate Virtual Environment
 
 ### Windows
 
@@ -280,7 +280,7 @@ python -m venv .venv
 
 ---
 
-## 5️⃣ Install Dependencies
+## 5️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -288,7 +288,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run Project
+#  Run Project
 
 ## Run Payroll Generator
 
@@ -306,7 +306,7 @@ streamlit run dashboard.py
 
 ---
 
-# 📦 requirements.txt
+#  requirements.txt
 
 ```txt
 langgraph
@@ -320,7 +320,7 @@ pandas
 
 ---
 
-# 📌 Future Enhancements
+#  Future Enhancements
 
 - Database Integration
 - Email Payslip Delivery
@@ -330,16 +330,6 @@ pandas
 - Real-time ERP Integration
 
 ---
-
-# 👨‍💻 Author
-
-Yuva Kavi
-
-GitHub:
-https://github.com/yuvakavi
-
----
-
-# ⭐ Conclusion
+#  Conclusion
 
 This project demonstrates a complete payroll automation and analytics workflow using LangGraph, PDF generation, JSON APIs, department-wise expenditure calculation, and interactive dashboard visualization.
