@@ -146,22 +146,7 @@ Department Expenditure =
 
 #  Visualization Types
 
-## 1️ Static Pie Chart
-Generated using:
-- Matplotlib
-
-Purpose:
-- Report generation
-- Documentation screenshots
-
-Output:
-```plaintext
-outputs/charts/department_pie_chart.png
-```
-
----
-
-## 2️ Interactive Dashboard
+## Interactive Dashboard
 Built using:
 - Streamlit
 - Plotly
@@ -238,7 +223,6 @@ Example:
 | LangChain | AI Framework |
 | ReportLab | PDF Generation |
 | Pandas | Data Handling |
-| Matplotlib | Static Charts |
 | Plotly | Interactive Charts |
 | Streamlit | Dashboard |
 
